@@ -3,24 +3,17 @@
 int main(){
 
 	char ch;
-	int characters;
-	int words;
-	int lines;
 	
 	printf("Enter a or some character: ");
 	
-		while ((ch = getchar()) != EOF);{
+		while (ch != EOF);
+		{
 			ch = getchar();
-			characters++;
-			
-				if ((ch = getchar()) == ' ');
-				words++;
-				if ((ch = getchar()) == '\n');
-				lines++;
 		}
 		
 		
-	printf("\nYou Entered: %i character(s), %i words & %i lines", characters, words, lines);
+	printf("\nYou Entered: );
+	putchar(ch);
 	printf("\n");
 
 }
